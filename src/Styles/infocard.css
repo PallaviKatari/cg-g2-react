@@ -1,0 +1,52 @@
+.cardbg
+{
+    background-color: #d8d8f4;
+
+}
+
+.cardbg:hover
+{
+    background-color: rgb(232,166,141);
+
+}
+
+.img
+{
+    position: relative;
+    left: 10px;
+    height: 70px;
+    width: 70px;
+    mix-blend-mode: darken;
+}
+
+#mutitle
+{
+    position: relative;
+    left: 48vmin;
+}
+
+#mutag
+{
+    position: relative;
+    left: 42vmin;
+}
+
+#ibtn
+{
+    position: relative;
+    right: 35px;
+    width: 100px;
+}
+
+.infocard
+{
+    position: relative;
+    left: 90px;
+    top: 35px;
+}
+
+.infotxt
+{
+    position: relative;
+    right: 30vmin;
+}

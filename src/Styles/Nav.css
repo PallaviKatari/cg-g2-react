@@ -1,0 +1,21 @@
+.App-logo1 {
+    height: 5vmin;
+    pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo1 {
+        animation: App-logo1-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo1-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
