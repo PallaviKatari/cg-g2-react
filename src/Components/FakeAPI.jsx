@@ -25,7 +25,7 @@ export default class ComponentDidMountMethod extends Component {
       return (
         <div style={{ color: 'green', marginTop: 100, padding: 2 }}>
          <p>List of API users data</p><hr></hr>
-      {this.state.data.map(d=> <h6 key={d.id}>{d.name}<br></br>{d.email}<hr></hr></h6>)}
+      {this.state.data.map(d=> <h6 key={d.id}>{d.name}<br></br>{d.email}<br></br>{d.address.city}<hr></hr></h6>)}
         </div>
       )
     }

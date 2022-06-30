@@ -21,6 +21,9 @@ import FormValidator from "./Components/FormValidator";
 import ComponentDidMountMethod from "./Components/FakeAPI";
 import Table from "./Components/Fragments";
 import HookForm from "./Components/ReactHookForm";
+import PersonList from "./Components/AxiosDemo";
+import AwaitAsync from "./Components/AxiosAwaitAsync";
+import AxiosuseAxios from "./Components/useAxiosDemo";
 // ARRAYS
 const myLists = ['Peter', 'Sachin', 'Kevin', 'Dhoni', 'Alisa'];
 
@@ -51,6 +54,9 @@ function App() {
         <Route exact path="fakeapi" element={<ComponentDidMountMethod />} />
         <Route exact path="rooks" element={<Rooks />} />
         <Route exact path="spread" element={<Spreadsyntax />} />
+        <Route exact path="axios" element={<PersonList />} />
+        <Route exact path="awaitasync" element={<AwaitAsync />} />
+        <Route exact path="useAxios" element={<AxiosuseAxios />} />
       </Routes>
     </div>
   );
@@ -59,22 +65,22 @@ function App() {
 // CHILD COMPONENT
 
 //Functional Component
-function Welcome() {
-  return <h1>REACT TRAINING</h1>
-}
+// function Welcome() {
+//   return <h1>REACT TRAINING</h1>
+// }
 
-function Message()
-{
-  return <h2>Welcome Team!!!</h2>
-}
+// function Message()
+// {
+//   return <h2>Welcome Team!!!</h2>
+// }
 
-//Class Component
+// //Class Component
 
-class Course extends React.Component {
+// class Course extends React.Component {
   
-  render() {
-    return <h2>Welcome to React!</h2>;
-  }
-}
+//   render() {
+//     return <h2>Welcome to React!</h2>;
+//   }
+// }
 
 export default App;

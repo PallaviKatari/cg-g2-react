@@ -22,7 +22,7 @@ return (
 function Image(props) {
     return (
         <div>
-            <img {...props}/>
+            <img {...props} alt=""/>
         </div>
     );
 }

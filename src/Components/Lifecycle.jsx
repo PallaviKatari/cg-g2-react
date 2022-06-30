@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 export default class Test extends React.Component {
 	constructor(props)
@@ -28,7 +28,7 @@ export default class Test extends React.Component {
 			<div style={{ color: 'blue', marginTop: 100, padding: 2 }}>
 			<h1>React Lifecycle , Hello { this.state.hello }</h1>
 			<h2>
-			<a onClick={this.changeState.bind(this)}>Click Here!</a>
+			<a onClick={this.changeState.bind(this)} href="https://jsonplaceholder.typicode.com/users">Click Here!</a>
 			</h2>
 			</div>);
 	}

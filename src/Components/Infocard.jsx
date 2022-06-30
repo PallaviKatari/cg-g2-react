@@ -12,7 +12,7 @@ const Infocard = () => {
             <div className="col-md-3">
                 <div className="card Infocard cardbg">
                     <div className="card-body" key={cards.id} >
-                        <img src={cards.path} className="img" />
+                        <img src={cards.path} className="img" alt=''/>
                         <center><h1 className="card-title">{cards.type}</h1>
                             <p className="card-text">{cards.msg}</p>
                             <h4 className="card-title">{cards.time}</h4>

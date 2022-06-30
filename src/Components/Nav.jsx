@@ -40,6 +40,9 @@ export default function NavBar() {
                                     <li><Link to="hookform">ReactHookForm</Link></li>
                                     <li><Link to="incdec">IncrementDecrement</Link></li>
                                     <li><Link to="fakeapi">Json Fake API</Link></li>
+                                    <li><Link to="axios">Axios Demo</Link></li>
+                                    <li><Link to="awaitasync">Axios await async demo</Link></li>
+                                    <li><Link to="useAxios">useAxios Demo</Link></li>
                                 </ul>
                             </li>
                         </ul>
