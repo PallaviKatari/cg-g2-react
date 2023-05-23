@@ -24,6 +24,7 @@ import HookForm from "./Components/ReactHookForm";
 import PersonList from "./Components/AxiosDemo";
 import AwaitAsync from "./Components/AxiosAwaitAsync";
 import AxiosuseAxios from "./Components/useAxiosDemo";
+import Events from "./Components/Events";
 // ARRAYS
 const myLists = ['Peter', 'Sachin', 'Kevin', 'Dhoni', 'Alisa'];
 
@@ -57,6 +58,7 @@ function App() {
         <Route exact path="axios" element={<PersonList />} />
         <Route exact path="awaitasync" element={<AwaitAsync />} />
         <Route exact path="useAxios" element={<AxiosuseAxios />} />
+        <Route exact path="events" element={<Events />} />
       </Routes>
     </div>
   );

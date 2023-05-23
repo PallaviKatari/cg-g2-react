@@ -43,6 +43,7 @@ export default function NavBar() {
                                     <li><Link to="axios">Axios Demo</Link></li>
                                     <li><Link to="awaitasync">Axios await async demo</Link></li>
                                     <li><Link to="useAxios">useAxios Demo</Link></li>
+                                    <li><Link to="events">Events Demo</Link></li>
                                 </ul>
                             </li>
                         </ul>
