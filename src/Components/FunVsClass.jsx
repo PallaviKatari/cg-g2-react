@@ -5,6 +5,7 @@ const FunctionalComponent=()=>{
 
 	const increase = () => {
 		setCount(count+1);
+        console.log(count);
 	}
 
 	return (
@@ -16,6 +17,24 @@ const FunctionalComponent=()=>{
 		</div>
 	)
 }
+const FunctionalComponent1=()=>{
+	const [count, setCount] = useState(0);
+
+	const dec = () => {
+		setCount(count-1);
+        console.log(count);
+	}
+
+	return (
+		<div style={{margin:'50px'}}>
+			<h1>Welcome to Functional Component1 </h1>
+			<h3>Counter App using Functional Component1 : </h3>
+		<h2>{count}</h2>
+			<button onClick={dec}>Dec</button>
+		</div>
+	)
+}
+
 
 class ClassComponent extends React.Component{
     constructor(){
@@ -28,6 +47,7 @@ class ClassComponent extends React.Component{
      
    increase(){
        this.setState({count : this.state.count +1});
+       console.log(this.state.count);
    }
  
     render(){
@@ -38,6 +58,7 @@ class ClassComponent extends React.Component{
                <h2> {this.state.count}</h2> 
                <button onClick={this.increase}> Add</button>
                <FunctionalComponent/>
+               <FunctionalComponent1/>
             </div>
         )
     }

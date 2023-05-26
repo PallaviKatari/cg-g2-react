@@ -89,7 +89,7 @@ function FormExample() {
 
 function ButtonExample() {
     const handleClick = (e) => {
-        //e.stopPropagation();
+        e.stopPropagation();
         console.log("Button Clicked");
     };
 

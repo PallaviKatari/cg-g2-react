@@ -44,6 +44,9 @@ export default function NavBar() {
                                     <li><Link to="awaitasync">Axios await async demo</Link></li>
                                     <li><Link to="useAxios">useAxios Demo</Link></li>
                                     <li><Link to="events">Events Demo</Link></li>
+                                    <li><Link to="apisearch">API Search and Filter</Link></li>
+                                    <li><Link to="sign">Signature Pad</Link></li>
+                                    <li><Link to="cart">Add to cart</Link></li>
                                 </ul>
                             </li>
                         </ul>

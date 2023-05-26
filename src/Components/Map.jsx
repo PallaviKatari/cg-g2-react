@@ -46,8 +46,8 @@ function MenuBlog(props) {
     );
 }
 const data = [
-    { id: 1, title: 'Props', content: 'Welcome to ReactJS Map!!' },
-    { id: 2, title: 'Map', content: 'Welcome to ReactJS Props!!' },
+    { id: 1, title: 'Map', content: 'Welcome to ReactJS Map!!' },
+    { id: 2, title: 'Props', content: 'Welcome to ReactJS Props!!' },
 ];
 
 export default NameList;  

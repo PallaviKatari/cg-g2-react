@@ -25,6 +25,9 @@ import PersonList from "./Components/AxiosDemo";
 import AwaitAsync from "./Components/AxiosAwaitAsync";
 import AxiosuseAxios from "./Components/useAxiosDemo";
 import Events from "./Components/Events";
+import ApiSearch from "./Components/APIFilterSearch";
+import SignDemo from "./Components/SignaturePad";
+import AddToCart from "./Components/AddToCart";
 // ARRAYS
 const myLists = ['Peter', 'Sachin', 'Kevin', 'Dhoni', 'Alisa'];
 
@@ -59,6 +62,9 @@ function App() {
         <Route exact path="awaitasync" element={<AwaitAsync />} />
         <Route exact path="useAxios" element={<AxiosuseAxios />} />
         <Route exact path="events" element={<Events />} />
+        <Route exact path="apisearch" element={<ApiSearch />} />
+        <Route exact path="sign" element={<SignDemo />} />
+        <Route exact path="cart" element={<AddToCart/>}/>
       </Routes>
     </div>
   );
