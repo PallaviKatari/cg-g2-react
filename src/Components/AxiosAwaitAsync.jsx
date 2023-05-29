@@ -12,6 +12,7 @@ export default function AwaitAsync() {
     async function getPost() {
       const response = await client.get("/1");
       setPost(response.data);
+      console.log(response.data);
     }
     getPost();
   }, []);

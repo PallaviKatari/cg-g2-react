@@ -11,7 +11,7 @@ export default function AxiosuseAxios() {
 
     return (
         <div className="row" style={{ marginTop: 100 }}>
-            <h1 class="head"> PRODUCT DETAILS </h1>
+            <h1 className="head"> PRODUCT DETAILS </h1>
             <div className="col md-3">
                 <h1 class="head">Employees list</h1>
                 {data.map((record, i) =>

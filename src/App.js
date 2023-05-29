@@ -14,7 +14,7 @@ import RouteDemo from "./Components/RouteDemo";
 import Spreadsyntax from "./Components/Spreadsyntax";
 import Filter from "./Components/Filter";
 import Parent from "./Components/Binding";
-import Test from "./Components/Lifecycle";
+import Lifecycle from "./Components/Lifecycle";
 import Infocard from "./Components/Infocard";
 import CondRen from "./Components/Conditional";
 import FormValidator from "./Components/FormValidator";
@@ -47,7 +47,7 @@ function App() {
         <Route exact path="binding" element={<Parent />} />
         <Route exact path="cards" element={<Infocard />} />
         <Route exact path="style" element={<Style />} />
-        <Route exact path="lifecycle" element={<Test />} />
+        <Route exact path="lifecycle" element={<Lifecycle />} />
         <Route exact path="hookform" element={<HookForm />} />
         <Route exact path="fragments" element={<Table/>} />
         <Route exact path="prop" element={<Prop company1="CG-VAK" company2="G2" />} />

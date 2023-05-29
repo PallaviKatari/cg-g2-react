@@ -12,6 +12,7 @@ export default class PersonList extends React.Component {
       .then(res => {
         const persons = res.data;
         this.setState({ persons });
+        console.log(res.data);
       })
   }
 
@@ -27,7 +28,7 @@ export default class PersonList extends React.Component {
           }
         </ul>
         <br></br>
-        <PersonAdd />
+        {/* <PersonAdd /> */}
       </>
     )
   }
