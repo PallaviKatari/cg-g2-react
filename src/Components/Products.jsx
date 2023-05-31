@@ -1,7 +1,6 @@
 import React from "react";
 import data from "../data/products.json";
 import { useCart } from "react-use-cart";
-import logo from '../Assets/react.png';
 
 const Products = () => {
 

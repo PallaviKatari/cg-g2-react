@@ -28,6 +28,10 @@ import Events from "./Components/Events";
 import ApiSearch from "./Components/APIFilterSearch";
 import SignDemo from "./Components/SignaturePad";
 import AddToCart from "./Components/AddToCart";
+import RenderProps from "./Components/RenderProps";
+import ReactHooks from "./Components/ReactHooks";
+import Callback from "./Components/Callback";
+import Memo from "./Components/Memo";
 // ARRAYS
 const myLists = ['Peter', 'Sachin', 'Kevin', 'Dhoni', 'Alisa'];
 
@@ -65,6 +69,10 @@ function App() {
         <Route exact path="apisearch" element={<ApiSearch />} />
         <Route exact path="sign" element={<SignDemo />} />
         <Route exact path="cart" element={<AddToCart/>}/>
+        <Route exact path="renderProps" element={<RenderProps/>}/>
+        <Route exact path="hooks" element={<ReactHooks/>}/>
+        <Route exact path="callback" element={<Callback/>}/>
+        <Route exact path="memo" element={<Memo/>}/>
       </Routes>
     </div>
   );

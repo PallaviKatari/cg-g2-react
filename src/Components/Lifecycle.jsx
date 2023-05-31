@@ -76,6 +76,10 @@ export default class LifeCycle extends React.Component {
 		}
 	}
 
+	componentDidMount() {
+		console.log('Component has mounted.');
+	}
+
 	//static getDerivedStateFromError(error) for returning an updated state to allow a render of fallback UI.
 	static getDerivedStateFromError(error) {
 		return {
@@ -88,13 +92,14 @@ export default class LifeCycle extends React.Component {
 	//including a component stack tracing back to the source of the error.
 	componentDidCatch(error) {
 		console.log(error.name + ": " + error.message);
+		this.componentDidMount();
 		// Output: Error: Crashed!
 	}
 
 	render() {
 		if (this.state.hasError) {
 			return (
-				<div style={{ marginTop:100 }}>
+				<div style={{ marginTop: 100 }}>
 					<h1>Oh no! Something's gone wrong!</h1>
 				</div>
 			)
@@ -102,7 +107,6 @@ export default class LifeCycle extends React.Component {
 
 		return (
 			<div>
-				
 				<CounterThatThrowsError />
 			</div>
 		)

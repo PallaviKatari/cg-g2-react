@@ -47,6 +47,10 @@ export default function NavBar() {
                                     <li><Link to="apisearch">API Search and Filter</Link></li>
                                     <li><Link to="sign">Signature Pad</Link></li>
                                     <li><Link to="cart">Add to cart</Link></li>
+                                    <li><Link to="renderProps">Render Props</Link></li>
+                                    <li><Link to="hooks">React Hooks</Link></li>
+                                    <li><Link to="callback">React useCallback</Link></li>
+                                    <li><Link to="memo">React useMemo</Link></li>
                                 </ul>
                             </li>
                         </ul>
