@@ -4,7 +4,7 @@ function Textbox({name,handleClick}) {
     console.log("Textbox Rendered")  
     return (  
         <div>  
-            <input type="text" placeholder="Enter Name" value={name} onChange={handleClick}/>  
+            <input type="text" placeholder="Enter Name" value={name} onChange={handleClick} style={{width:200,marginLeft:700}}/>  
         </div>  
     )  
 }  

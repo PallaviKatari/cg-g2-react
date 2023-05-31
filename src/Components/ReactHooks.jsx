@@ -33,8 +33,8 @@ export default function ReactHooks() {
             <Effect1 />
             <hr></hr>
             <Reference />
-            <hr/>
-            <Context/>
+            <hr />
+            <Context />
         </div>
     );
 }
@@ -148,5 +148,8 @@ const Main = () => (
 );
 const Header = () => {
     const user = React.useContext(UserContext)
-    return <h1 style={{marginTop:100}}>Welcome, {user.name}!</h1>;
+    return <>
+        <h1>React useContext</h1>
+        <h1 style={{ marginTop: 20 }}>Welcome, {user.name}!</h1>
+    </>;
 }

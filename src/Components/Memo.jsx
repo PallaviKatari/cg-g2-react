@@ -26,8 +26,8 @@ function Memo() {
 
 return (
     <div style={{marginTop:100}}>
-        <input type="number" value = {count} onChange={({target:{value}})=>setCount(parseInt(value))}/>
-        <input type="text" value={name} onChange={({target:{value}})=>setName(value)}/>
+        <input type="number" value = {count} onChange={({target:{value}})=>setCount(parseInt(value))} style={{width:200,marginLeft:700}}/>
+        <input type="text" value={name} onChange={({target:{value}})=>setName(value)} style={{width:200,marginLeft:700}}/>
     <div>{thousendNumber}</div>
     </div>
 )
