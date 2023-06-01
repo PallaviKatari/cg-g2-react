@@ -32,6 +32,8 @@ import RenderProps from "./Components/RenderProps";
 import ReactHooks from "./Components/ReactHooks";
 import Callback from "./Components/Callback";
 import Memo from "./Components/Memo";
+import TableDemo from "./Components/ReactTable";
+import TodosItems from "./Components/TodoHOC";
 // ARRAYS
 const myLists = ['Peter', 'Sachin', 'Kevin', 'Dhoni', 'Alisa'];
 
@@ -73,6 +75,8 @@ function App() {
         <Route exact path="hooks" element={<ReactHooks/>}/>
         <Route exact path="callback" element={<Callback/>}/>
         <Route exact path="memo" element={<Memo/>}/>
+        <Route exact path="reacttable" element={<TableDemo/>}/>
+        <Route exact path="hoc" element={<TodosItems/>}/>
       </Routes>
     </div>
   );

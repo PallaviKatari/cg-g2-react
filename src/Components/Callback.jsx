@@ -68,7 +68,8 @@ function Callback() {
             <Title />
 
             <Button count={count} handleClick={incrementCounter} />
-            <label>Name is {name}</label>
+            <br/>
+            <label>My name is {name}</label>
             <Textbox text={name} handleClick={updateName} />
         </div>
     )

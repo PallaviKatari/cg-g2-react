@@ -3,8 +3,9 @@ import React from 'react'
 function Textbox({name,handleClick}) {  
     console.log("Textbox Rendered")  
     return (  
-        <div>  
-            <input type="text" placeholder="Enter Name" value={name} onChange={handleClick} style={{width:200,marginLeft:700}}/>  
+        <div> 
+            <h3>TextBox Component</h3> 
+            <input type="text" placeholder="Enter Name" value={name} onChange={handleClick} style={{width:200,marginLeft:650}}/>  
         </div>  
     )  
 }  

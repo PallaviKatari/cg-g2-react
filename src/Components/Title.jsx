@@ -5,7 +5,7 @@ function Title() {
     return (  
   
         <div>  
-            React Title  
+            <h3>Title Component</h3> 
         </div>  
     )  
 }  

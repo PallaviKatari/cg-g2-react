@@ -21,7 +21,7 @@ export default function NavBar() {
                         <ul className="nav navbar-nav">
                             <li className="active"></li>
                             <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="concepts">React Concepts<span className="caret"></span></a>
-                                <ul className="dropdown-menu" id="concepts">
+                                <ul className="dropdown-menu dropdown-scrollbar" id="concepts">
                                     <li><Link to="lifecycle">LifeCycle</Link></li>
                                     <li><Link to="routedemo">RouteDemo</Link></li>
                                     <li><Link to="rooks">Rooks</Link></li>
@@ -51,6 +51,8 @@ export default function NavBar() {
                                     <li><Link to="hooks">React Hooks</Link></li>
                                     <li><Link to="callback">React useCallback</Link></li>
                                     <li><Link to="memo">React useMemo</Link></li>
+                                    <li><Link to="reacttable">React Table</Link></li>
+                                    <li><Link to="hoc">HOC</Link></li>
                                 </ul>
                             </li>
                         </ul>
