@@ -3,6 +3,8 @@ import './App.css';
 import Style from './Components/Style';
 //npm install react-router-dom@6 and npm audit fix --force
 import { Routes, Route } from "react-router-dom";
+
+
 import NavBar from './Components/Nav';
 import Prop from './Components/Props';
 import NameList from './Components/Map';
@@ -34,6 +36,9 @@ import Callback from "./Components/Callback";
 import Memo from "./Components/Memo";
 import TableDemo from "./Components/ReactTable";
 import TodosItems from "./Components/TodoHOC";
+
+import Sample1 from "./Components/Sample1";
+import Sample2 from "./Components/Sample2";
 // ARRAYS
 const myLists = ['Peter', 'Sachin', 'Kevin', 'Dhoni', 'Alisa'];
 
@@ -41,11 +46,13 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+
       {/* Child Component - Welcome Component  */}
       {/* <span style={{ color: 'blue', marginTop: 150, padding: 5 }}><Message/><br></br><Welcome /><br></br><Course/><br></br><Demo/></span>
       <Prop company1="ABC" company2="XYZ" /> */}
       {/* ROUTING */}
       <Routes>
+        <Route exact path="sample1" element={<Sample1/>}/>
         <Route exact path="routedemo" element={<RouteDemo />} />
         <Route exact path="comp" element={<ClassComponent />} />
         <Route exact path="cond" element={<CondRen />} />
