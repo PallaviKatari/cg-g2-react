@@ -39,7 +39,8 @@ const FunctionalComponent1 = () => {
 }
 
 //Stateful component
-class ClassComponent extends Component {
+//export one component by default
+export default class ClassComponent extends Component {
     constructor() {
         super();
         this.state = {
@@ -68,7 +69,8 @@ class ClassComponent extends Component {
     }
 }
 
-export default ClassComponent;
+//export all the components to reuse in other components using the below method
+export { ClassComponent, FunctionalComponent};
 
 function Sample() {
     return (

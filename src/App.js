@@ -3,8 +3,7 @@ import './App.css';
 import Style from './Components/Style';
 //npm install react-router-dom@6 and npm audit fix --force
 import { Routes, Route } from "react-router-dom";
-
-
+import { FunctionalComponent } from "./Components/FunVsClass";
 import NavBar from './Components/Nav';
 import Prop from './Components/Props';
 import NameList from './Components/Map';
@@ -46,6 +45,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <FunctionalComponent/>
 
       {/* Child Component - Welcome Component  */}
       {/* <span style={{ color: 'blue', marginTop: 150, padding: 5 }}><Message/><br></br><Welcome /><br></br><Course/><br></br><Demo/></span>
