@@ -35,17 +35,17 @@ import Callback from "./Components/Callback";
 import Memo from "./Components/Memo";
 import TableDemo from "./Components/ReactTable";
 import TodosItems from "./Components/TodoHOC";
-
+import Carousel from "./Components/Carousel";
 import Sample1 from "./Components/Sample1";
 import Sample2 from "./Components/Sample2";
 // ARRAYS
-const myLists = ['Peter', 'Sachin', 'Kevin', 'Dhoni', 'Alisa'];
+const myLists = ['Peter', 'Sachin', 'Kevin', 'Dhoni', 'Alisa','Ajith','Peter'];
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <FunctionalComponent/>
+      <Carousel/>
 
       {/* Child Component - Welcome Component  */}
       {/* <span style={{ color: 'blue', marginTop: 150, padding: 5 }}><Message/><br></br><Welcome /><br></br><Course/><br></br><Demo/></span>

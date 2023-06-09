@@ -15,6 +15,7 @@ export default class ComponentDidMountMethod extends Component {
   //   javascript map function to iterate our data and 
   //   print all users’ names from the API.
   componentDidMount() {
+    debugger;
     fetch('https://jsonplaceholder.typicode.com/users').then(
       (response) => response.json()
     ).then(data => this.setState({ data: data }))

@@ -34,7 +34,7 @@ function MenuBlog(props) {
     );
     const content = props.data.map((show) =>
         <div key={show.id}>
-            <h3>{show.title}: {show.content}</h3>
+            <h3>{show.title}: {show.content}!!!!!!!</h3>
         </div>
     );
     return (
@@ -48,6 +48,10 @@ function MenuBlog(props) {
 const data = [
     { id: 1, title: 'Map', content: 'Welcome to ReactJS Map!!' },
     { id: 2, title: 'Props', content: 'Welcome to ReactJS Props!!' },
+    { id: 3, title: 'Map1', content: 'Welcome to ReactJS Map!!' },
+    { id: 4, title: 'Props2', content: 'Welcome to ReactJS Props!!' },
+    { id: 5, title: 'Map3', content: 'Welcome to ReactJS Map!!' },
+    { id: 6, title: 'Props4', content: 'Welcome to ReactJS Props!!' },
 ];
 
 export default NameList;  
